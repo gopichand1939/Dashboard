@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-logo">
+                <h2>Dithche </br>Dollar</h2>
+            </div>
+            <ul class="nav-links">
+                <li class="active"><a href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-user"></i> CRM</a></li>
+                <li><a href="#"><i class="fas fa-cogs"></i> MAM</a></li>
+                <li><a href="#"><i class="fas fa-users"></i> PAMM</a></li>
+                <li><a href="#"><i class="fas fa-chart-line"></i> Trade</a></li>
+                <li><a href="#"><i class="fas fa-wallet"></i> Wallet</a></li>
+                <li><a href="#"><i class="fas fa-file-invoice-dollar"></i> Accounts</a></li>
+                <li><a href="#"><i class="fas fa-history"></i> History</a></li>
+                <li><a href="#"><i class="fas fa-bell"></i> Notifications</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                <li><a href="#"><i class="fas fa-question-circle"></i> Help & Support</a></li>
+                <li><a href="#"><i class="fas fa-sign-out-alt"></i> Log Out</a></li>
+            </ul>
+            <div class="user-info">
+                <p>Shyam Shakur</p>
+                <p>shyam01.shankur@mail.com</p>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <h1>Dashboard</h1>
+                <div class="search">
+                    <input type="text" placeholder="Search...">
+                </div>
+            </header>
+            <div class="content-layout">
+                <!-- Left Column -->
+                <div class="left-column">
+                    <section class="quick-links">
+                        <div class="link">
+                            <i class="fas fa-money-check-alt"></i>
+                            <p>Deposit</p>
+                        </div>
+                        <div class="link">
+                            <i class="fas fa-hand-holding-usd"></i>
+                            <p>Withdraw</p>
+                        </div>
+                        <div class="link">
+                            <i class="fas fa-cogs"></i>
+                            <p>Settings</p>
+                        </div>
+                        <div class="link">
+                            <i class="fas fa-check-circle"></i>
+                            <p>Verification</p>
+                        </div>
+                        <div class="link">
+                            <i class="fas fa-gift"></i>
+                            <p>Bonuses</p>
+                        </div>
+                        <div class="link">
+                            <i class="fas fa-chart-line"></i>
+                            <p>MT5</p>
+                        </div>
+                        <div class="link">
+                            <i class="fas fa-exchange-alt"></i>
+                            <p>Transfer</p>
+                        </div>
+                        <div class="link">
+                            <i class="fas fa-history"></i>
+                            <p>History</p>
+                        </div>
+                        <div class="link">
+                            <i class="fas fa-user-friends"></i>
+                            <p>Partner</p>
+                        </div>
+                        <div class="link">
+                            <i class="fas fa-exchange-alt"></i>
+                            <p>Exchange</p>
+                        </div>
+                        <div class="link">
+                            <i class="fas fa-chart-pie"></i>
+                            <p>Analytics</p>
+                        </div>
+                    </section>
+                    <section class="overview">
+                        <h2>Overview</h2>
+                        <div class="chart">
+                            <!-- You can add chart libraries or static images here -->
+
+                            <div class="container">
+                                <div class="header">
+                                    <h3>Overview</h3>
+                                    <button class="download-btn">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8 10V1M8 10L4 6M8 10L12 6M3 14H13" stroke="#7E57C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        Download Report
+                                    </button>
+                                </div>
+                                <div class="toggle">
+                                    <button class="toggle-btn monthly">Monthly</button>
+                                    <button class="toggle-btn yearly active">Yearly</button>
+                                </div>
+                                <div class="chart-container">
+                                    <div class="y-axis">
+                                        <div class="y-label">$1500</div>
+                                        <div class="y-label">$1000</div>
+                                        <div class="y-label">$500</div>
+                                        <div class="y-label">$0</div>
+                                    </div>
+                                    <div class="bar-chart-container">
+                                        <div class="bar-chart">
+                                            <div class="bar" style="height: 60%;">
+                                                <div class="label">Jan</div>
+                                            </div>
+                                            <div class="bar" style="height: 35%;">
+                                                <div class="label">Feb</div>
+                                            </div>
+                                            <div class="bar" style="height: 75%;">
+                                                <div class="label">Mar</div>
+                                            </div>
+                                            <div class="bar" style="height: 100%;">
+                                                <div class="label">Apr</div>
+                                            </div>
+                                            <div class="bar" style="height: 70%;">
+                                                <div class="label">May</div>
+                                            </div>
+                                            <div class="bar" style="height: 90%;">
+                                                <div class="label">Jun</div>
+                                            </div>
+                                            <div class="bar" style="height: 45%;">
+                                                <div class="label">Jul</div>
+                                            </div>
+                                            <div class="bar" style="height: 100%;">
+                                                <div class="label">Aug</div>
+                                            </div>
+                                            <div class="bar" style="height: 60%;">
+                                                <div class="label">Sep</div>
+                                            </div>
+                                            <div class="bar" style="height: 70%;">
+                                                <div class="label">Oct</div>
+                                            </div>
+                                            <div class="bar" style="height: 25%;">
+                                                <div class="label">Nov</div>
+                                            </div>
+                                            <div class="bar" style="height: 50%;">
+                                                <div class="label">Dec</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                    </section>
+                </div>
+
+                <!-- Right Column -->
+                <div class="right-column">
+                    <section class="trading-accounts">
+
+
+                        <div class="trading-accounts">
+                            <div class="account-container">
+                                <div class="account-header">
+                                    <span class="account-title">Master Account</span>
+
+                                </div>
+                                <div class="account-details">
+                                    <span class="account-platform">CTrader</span>
+                                    <span class="account-number">#273728</span>
+                                </div>
+                                <div class="account-balance">
+                                    <span class="balance-amount">0.00</span>
+                                    <span class="balance-currency">USD</span>
+                                </div>
+                                <div class="account-link">
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+
+                            <div class="account-container">
+                                <div class="account-header">
+                                    <span class="account-title">Master Account</span>
+
+                                </div>
+                                <div class="account-details">
+                                    <span class="account-platform">CTrader</span>
+                                    <span class="account-number">#273728</span>
+                                </div>
+                                <div class="account-balance">
+                                    <span class="balance-amount">0.00</span>
+                                    <span class="balance-currency">USD</span>
+                                </div>
+                                <div class="account-link">
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </section>
+
+                    <section class="open-trades">
+                        <div class="open-trades">
+                            <h2>Open Trades</h2>
+
+                            <div class="trade-container">
+                                <div class="trade-info">
+                                    <span class="currency-pair">GBPUSD</span>
+                                    <span class="trade-type long">Long</span>
+                                </div>
+                                <div class="trade-details">
+                                    <span class="profit positive">+56.00</span>
+                                    <span class="currency">USD</span>
+                                    <span class="trade-volume">0.12</span>
+                                </div>
+                            </div>
+
+                            <div class="trade-container">
+                                <div class="trade-info">
+                                    <span class="currency-pair">USDJPY</span>
+                                    <span class="trade-type long">Long</span>
+                                </div>
+                                <div class="trade-details">
+                                    <span class="profit negative">-0.09</span>
+                                    <span class="currency">USD</span>
+                                    <span class="trade-volume">0.52</span>
+                                </div>
+                            </div>
+
+                            <div class="trade-container">
+                                <div class="trade-info">
+                                    <span class="currency-pair">EURUSD</span>
+                                    <span class="trade-type short">Short</span>
+                                </div>
+                                <div class="trade-details">
+                                    <span class="profit negative">-1.09</span>
+                                    <span class="currency">USD</span>
+                                    <span class="trade-volume">0.34</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
